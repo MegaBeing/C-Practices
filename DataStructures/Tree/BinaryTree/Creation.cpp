@@ -16,9 +16,9 @@ node* getter(){
     cin>>data;
     if(data==-1) return nullptr;    //using -1 as termination
     node *root=new node(data);
-    cout<<"enter left:\t";
+    cout<<"enter left node:\t";
     node *l=getter();
-    cout<<"enter right:\t";
+    cout<<"enter right node:\t";
     node *r=getter();
     root->left=l;
     root->right=r;
