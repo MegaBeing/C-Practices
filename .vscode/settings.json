@@ -1,3 +1,26 @@
 {
-    "C_Cpp.errorSquiggles": "Disabled"
+    "C_Cpp.errorSquiggles": "disabled",
+    "files.associations": {
+        "iostream": "cpp",
+        "vector": "cpp",
+        "new": "cpp",
+        "string": "cpp"
+    },
+    "workbench.colorCustomizations": {
+        "activityBar.activeBackground": "#025f6f",
+        "activityBar.background": "#025f6f",
+        "activityBar.foreground": "#061e2b",
+        "activityBar.inactiveForeground": "#061e2b99",
+        "commandCenter.border": "#061e2b99",
+        "sash.hoverBorder": "#025f6f",
+        "statusBar.background": "#01343d",
+        "statusBar.foreground": "#061e2b",
+        "statusBarItem.hoverBackground": "#025f6f",
+        "statusBarItem.remoteBackground": "#01343d",
+        "statusBarItem.remoteForeground": "#061e2b",
+        "titleBar.activeBackground": "#01343d",
+        "titleBar.activeForeground": "#061e2b",
+        "titleBar.inactiveBackground": "#01343d99",
+        "titleBar.inactiveForeground": "#061e2b99"
+    }
 }
