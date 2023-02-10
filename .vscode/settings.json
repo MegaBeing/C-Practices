@@ -4,7 +4,9 @@
         "iostream": "cpp",
         "vector": "cpp",
         "new": "cpp",
-        "string": "cpp"
+        "string": "cpp",
+        "unordered_map": "cpp",
+        "random": "cpp"
     },
     "workbench.colorCustomizations": {
         "activityBar.activeBackground": "#025f6f",
