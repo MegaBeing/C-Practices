@@ -4,9 +4,10 @@ int pro(int *wts, int *price, int n,int bw){
     if(n==0)return 0;
     if(wts[n-1]>bw){
         int ans=0+pro(wts,price,n-1,bw);
+        return ans;
     }
     
-    int inc=price[n]+pro(wts,price,n-1,bw-wts[n-1]);
+    int inc=price[n-1]+pro(wts,price,n-1,bw-wts[n-1]);
     int exc=pro(wts,price,n-1,bw);
     return max(inc,exc);
 }
